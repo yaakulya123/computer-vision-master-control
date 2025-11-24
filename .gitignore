@@ -1,0 +1,53 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Development documentation (not for production)
+CLAUDE.md
+activate.sh
+VENV_QUICKSTART.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+outputs/captures/*.jpg
+outputs/captures/*.png
+outputs/captures/*.mp4
+outputs/timelapse/*/
+
+# Keep directory structure but ignore contents
+!outputs/captures/.gitkeep
+!outputs/timelapse/.gitkeep
+
+# System
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log

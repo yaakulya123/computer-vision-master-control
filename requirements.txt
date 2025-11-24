@@ -1,0 +1,18 @@
+# RealSense D435 Camera Toolkit - Python Dependencies
+
+# Core Computer Vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Machine Learning / AI (for hand tracking, pose estimation)
+mediapipe>=0.10.0
+
+# QR Code / Barcode Scanning
+pyzbar>=0.1.9
+
+# Audio Synthesis (optional - for generative audio demo)
+# Uncomment the line below when ready to enable real audio:
+# pyo>=1.0.5
+
+# Note: librealsense is installed via Homebrew, not pip
+# brew install librealsense
