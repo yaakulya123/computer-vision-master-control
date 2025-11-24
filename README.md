@@ -98,7 +98,7 @@ Audio Output (44.1 kHz, 16-bit, Stereo)
 
 ### 1. Motion Detection: Dense Optical Flow
 
-We use the Farneback method for dense optical flow estimation:
+I used the Farneback method for dense optical flow estimation:
 
 **Algorithm**: Polynomial expansion approximation of neighborhoods
 
@@ -208,7 +208,7 @@ Random grain muting (50% probability) creates scatter effect
 
 ## Custom Implementation vs Libraries
 
-### What We Built (Custom Code)
+### What I Built (Custom Code)
 
 1. **Motion Analyzer** (`demos/motion_analyzer.py`, ~500 lines)
    - Optical flow pipeline integration
