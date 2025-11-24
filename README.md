@@ -15,7 +15,7 @@ This system bridges computer vision and audio synthesis to create a body-respons
 ### Primary Hardware
 - **Intel RealSense D435** Depth Camera
   - RGB sensor: 1920x1080 @ 30 FPS
-  - Depth sensors: Currently blocked by macOS USB interface limitations
+  - Depth sensors: Connected via USB interface
   - Using RGB-only mode for motion capture
 
 ### Computing Environment
